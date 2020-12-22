@@ -21,6 +21,8 @@ async function createWindow () {
       nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION
     }
   })
+  // removes menu options from window (File | Edit | Help)
+  win.removeMenu()
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
     // Load the url of the dev server if in development mode
