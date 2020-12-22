@@ -2,7 +2,7 @@
 <template>
   <div class="home container-fluid bg-ice">
     <div class="row">
-      <div class="col-10 mx-auto">
+      <div class="col-11 mx-auto">
         <div class="row justify-content-center">
           <div class="col-12 my-2">
             <h2 class="text-ice text-center">Ice-Spear Rotation Tool</h2>
